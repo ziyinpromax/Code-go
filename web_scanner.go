@@ -67,7 +67,7 @@ func startScanning(portal string, length int) {
 	mu.Unlock()
 
 	sessionID := "TEST_SESSION"
-	concurrency := 5000
+	concurrency := 2900
 
 	codes := make(chan string, 5000)
 	var wg sync.WaitGroup
